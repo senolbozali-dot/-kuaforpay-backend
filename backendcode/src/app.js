@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import healthRoutes from "./routes/health.route.js";
-
+import "./config/db.config.js";  // DB connection
 const app = express();
 
 // Middlewares
